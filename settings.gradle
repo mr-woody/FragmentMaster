@@ -1,0 +1,1 @@
+include ':fragmentmaster', ':fragmentmaster-appcompat', ':fragmentmaster-samples'

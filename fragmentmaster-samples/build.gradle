@@ -1,0 +1,17 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile project(':fragmentmaster-appcompat')
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+}
