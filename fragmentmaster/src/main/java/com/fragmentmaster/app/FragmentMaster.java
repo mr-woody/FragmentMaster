@@ -622,8 +622,7 @@ final class FragmentMasterState implements Parcelable {
         dest.writeInt(mHomeFragmentApplied ? 0 : 1);
     }
 
-    public static final Parcelable.Creator<FragmentMasterState> CREATOR
-            = new Parcelable.Creator<FragmentMasterState>() {
+    public static final Parcelable.Creator<FragmentMasterState> CREATOR = new Parcelable.Creator<FragmentMasterState>() {
         public FragmentMasterState createFromParcel(Parcel in) {
             return new FragmentMasterState(in);
         }
